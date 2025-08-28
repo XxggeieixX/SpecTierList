@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpecTierList</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1 0 auto;
+        }
+        footer {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body background="image/background.png">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">SpecTierList</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            TierList
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-bold" href="page2.html">Cpu</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page3.html">Gpu</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page4.html">PSU</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page5.html">Case</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-lg py-5 content">
+        <div class="text-center mb-4">
+            <span class="d-inline-block px-4 py-2 bg-danger text-white fw-bold rounded" style="font-size:1.2rem;">
+                เคส คอมที่นิยมในด้านต่างๆ
+            </span>
+            <hr class="mt-2" style="border-top: 2px solid #e74c3c; width: 100%;">
+        </div>
+        <div class="row text-center mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="fw-semibold text-uppercase" style="letter-spacing:2px; color:#fff; opacity:0.7;">เคสที่สวยที่สุด</div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="fw-semibold text-uppercase" style="letter-spacing:2px; color:#fff; opacity:0.7;">เคสที่คุ้มค่า</div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="fw-semibold text-uppercase" style="letter-spacing:2px; color:#fff; opacity:0.7;">เคสที่ดีที่สุดในงบประมาณ</div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow bg-white text-dark">
+                    <img src="image/case1.png" class="card-img-top" alt="Fractal Design North" style="object-fit:contain; height:320px; background:#fff;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">1. Fractal Design North</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow bg-white text-dark">
+                    <img src="image/case2.png" class="card-img-top" alt="Lian Li Lancool 207" style="object-fit:contain; height:320px; background:#fff;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">2. Lian Li Lancool 207</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow bg-white text-dark">
+                    <img src="image/case3.png" class="card-img-top" alt="Phanteks XT Pro Ultra" style="object-fit:contain; height:320px; background:#fff;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">3. Phanteks XT Pro Ultra</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-4 mt-5 border-top border-secondary">
+        <div class="container">
+            <h5 class="fw-bold mb-1">SpecTierList 🚀</h5>
+            <p class="mb-0">Crafted with passion by <span class="text-info fw-bold">[Puttipong Yenphasuk]</span> &copy; 2025
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+</html>

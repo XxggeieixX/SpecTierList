@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpecTierList</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1 0 auto;
+        }
+        footer {
+            flex-shrink: 0;
+        }
+        .table thead th {
+            vertical-align: middle;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+        .table tbody td {
+            vertical-align: middle;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body background="image/background.png">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">SpecTierList</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            TierList
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-bold" href="page2.html">Cpu</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page3.html">Gpu</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page4.html">PSU</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page5.html">Case</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="container-lg py-5">
+            <h1 class="fw-bold mb-4 text-white">10 อันดับ Power Supply ที่คุณภาพดีที่สุด</h1>
+            <div class="table-responsive">
+                <table class="table table-dark table-striped table-bordered align-middle">
+                    <thead class="table-primary text-dark">
+                        <tr>
+                            <th>MANUFACTURER</th>
+                            <th>MODEL</th>
+                            <th>EFFICIENCY RATING</th>
+                            <th>NOISE RATING</th>
+                            <th>TOTAL SCORE</th>
+                            <th>RELATIVE PERFORMANCE</th>
+                            <th>AVERAGE EFFICIENCY [%]</th>
+                            <th>AVERAGE EFFICIENCY (20-80W) [%]</th>
+                            <th>EFFICIENCY 2% [%]</th>
+                            <th>AVG NOISE OUTPUT [DB(A)]</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1st Player</td>
+                            <td>NGDP 1000W</td>
+                            <td>PLATINUM</td>
+                            <td>Standard++</td>
+                            <td>87.0974</td>
+                            <td>91.77</td>
+                            <td>90.361</td>
+                            <td>81.717</td>
+                            <td>71.907</td>
+                            <td>30.73</td>
+                        </tr>
+                        <tr>
+                            <td>1st Player</td>
+                            <td>NGDP 1300W</td>
+                            <td>PLATINUM</td>
+                            <td>Standard+</td>
+                            <td>87.3858</td>
+                            <td>92.07</td>
+                            <td>90.445</td>
+                            <td>81.728</td>
+                            <td>76.316</td>
+                            <td>37.28</td>
+                        </tr>
+                        <tr>
+                            <td>1st Player</td>
+                            <td>NGDP 750W</td>
+                            <td>GOLD</td>
+                            <td>A</td>
+                            <td>81.7653</td>
+                            <td>86.15</td>
+                            <td>88.719</td>
+                            <td>80.845</td>
+                            <td>65.382</td>
+                            <td>22.42</td>
+                        </tr>
+                        <tr>
+                            <td>1st Player</td>
+                            <td>NGDP 850W</td>
+                            <td>PLATINUM</td>
+                            <td>A</td>
+                            <td>83.5959</td>
+                            <td>88.08</td>
+                            <td>89.029</td>
+                            <td>81.284</td>
+                            <td>68.952</td>
+                            <td>23.79</td>
+                        </tr>
+                        <tr>
+                            <td>1st Player</td>
+                            <td>SFX 7.5 750W</td>
+                            <td>PLATINUM</td>
+                            <td>Standard+</td>
+                            <td>77.9929</td>
+                            <td>82.17</td>
+                            <td>89.946</td>
+                            <td>84.604</td>
+                            <td>73.028</td>
+                            <td>36.22</td>
+                        </tr>
+                        <tr>
+                            <td>1st Player</td>
+                            <td>Steampunk 750W</td>
+                            <td>PLATINUM</td>
+                            <td>Standard++</td>
+                            <td>76.2316</td>
+                            <td>80.32</td>
+                            <td>89.685</td>
+                            <td>83.556</td>
+                            <td>70.087</td>
+                            <td>34.23</td>
+                        </tr>
+                        <tr>
+                            <td>1st Player</td>
+                            <td>Steampunk 750W (#2)</td>
+                            <td>PLATINUM</td>
+                            <td>Standard++</td>
+                            <td>76.5055</td>
+                            <td>80.61</td>
+                            <td>89.551</td>
+                            <td>83.949</td>
+                            <td>69.393</td>
+                            <td>32.00</td>
+                        </tr>
+                        <tr>
+                            <td>1st Player</td>
+                            <td>Steampunk 850W</td>
+                            <td>GOLD</td>
+                            <td>Standard+</td>
+                            <td>77.7529</td>
+                            <td>81.92</td>
+                            <td>88.637</td>
+                            <td>78.732</td>
+                            <td>63.729</td>
+                            <td>37.22</td>
+                        </tr>
+                        <tr>
+                            <td>abee</td>
+                            <td>AP-PLA-1380W</td>
+                            <td>PLATINUM</td>
+                            <td>Standard++</td>
+                            <td>78.3068</td>
+                            <td>82.50</td>
+                            <td>89.121</td>
+                            <td>75.071</td>
+                            <td>-</td>
+                            <td>33.28</td>
+                        </tr>
+                        <tr>
+                            <td>ABKO</td>
+                            <td>CM-1200G-M</td>
+                            <td>GOLD</td>
+                            <td>Standard+</td>
+                            <td>85.4508</td>
+                            <td>90.07</td>
+                            <td>89.203</td>
+                            <td>81.127</td>
+                            <td>-</td>
+                            <td>40.44</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-4 mt-5 border-top border-secondary">
+            <div class="container">
+                <h5 class="fw-bold mb-1">SpecTierList 🚀</h5>
+                <p class="mb-0">Crafted with passion by <span class="text-info fw-bold">[Puttipong Yenphasuk]</span> &copy; 2025
+                </p>
+            </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

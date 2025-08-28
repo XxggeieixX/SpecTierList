@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpecTierList</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1 0 auto;
+        }
+        footer {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body background="image/background.png">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">SpecTierList</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            TierList
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-bold" href="page2.html">Cpu</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page3.html">Gpu</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page4.html">PSU</a></li>
+                            <li><a class="dropdown-item fw-bold" href="page5.html">Case</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-lg py-5">
+        <h1 class="fw-bold mb-4 text-white ">10 อันดับ Cpu ที่แรงที่สุดในปี 2025</h1>
+        <div class="table-responsive">
+            <table class="table table-dark table-striped table-bordered align-middle">
+                <thead class="table-primary text-dark">
+                    <tr>
+                        <th>Product / (MSRP)</th>
+                        <th>Lowest Price</th>
+                        <th>1080p Gaming Score</th>
+                        <th>Architecture</th>
+                        <th>Cores/Threads (P+E)</th>
+                        <th>Base/Boost GHz</th>
+                        <th>TDP / PBP / MTP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ryzen 7 9800X3D ($480)</td>
+                        <td><a href="#" class="text-info">$472</a></td>
+                        <td>100.00%</td>
+                        <td>Zen 5</td>
+                        <td>8 / 16</td>
+                        <td>4.7 / 5.2</td>
+                        <td>120W / 162W</td>
+                    </tr>
+                    <tr>
+                        <td>Ryzen 7 7800X3D ($449)</td>
+                        <td><a href="#" class="text-info">$381</a></td>
+                        <td>87.18%</td>
+                        <td>Zen 4</td>
+                        <td>8 / 16</td>
+                        <td>4.2 / 5.0</td>
+                        <td>120W / 162W</td>
+                    </tr>
+                    <tr>
+                        <td>Ryzen 9 7950X3D ($699)</td>
+                        <td><a href="#" class="text-info">Microcenter</a></td>
+                        <td>85.75%</td>
+                        <td>Zen 5</td>
+                        <td>16 / 32</td>
+                        <td>4.2 / 5.7</td>
+                        <td>120W / 162W</td>
+                    </tr>
+                    <tr>
+                        <td>Ryzen 9 7900X3D ($599)</td>
+                        <td><a href="#" class="text-info">Out of Stock</a></td>
+                        <td>79.94%</td>
+                        <td>Zen 4</td>
+                        <td>12 / 24</td>
+                        <td>4.4 / 5.6</td>
+                        <td>120W / 162W</td>
+                    </tr>
+                    <tr>
+                        <td>Core i9-14900K ($549)</td>
+                        <td><a href="#" class="text-info">$438</a></td>
+                        <td>77.10%</td>
+                        <td>Raptor Lake Refresh</td>
+                        <td>24 / 32 (8+16)</td>
+                        <td>3.2 / 6.0</td>
+                        <td>125W / 253W</td>
+                    </tr>
+                    <tr>
+                        <td>Ryzen 7 9700X ($359)</td>
+                        <td><a href="#" class="text-info">$309</a></td>
+                        <td>76.40%</td>
+                        <td>Zen5</td>
+                        <td>8 / 16</td>
+                        <td>3.8 / 5.5</td>
+                        <td>88W / 105W</td>
+                    </tr>
+                    <tr>
+                        <td>Ryzen 9 9950X ($649)</td>
+                        <td><a href="#" class="text-info">$520</a></td>
+                        <td>76.24%</td>
+                        <td>Zen5</td>
+                        <td>16 / 32</td>
+                        <td>4.3 / 5.7</td>
+                        <td>170W / 230W</td>
+                    </tr>
+                    <tr>
+                        <td>Core i7-14700K ($409)</td>
+                        <td><a href="#" class="text-info">$303</a></td>
+                        <td>75.76%</td>
+                        <td>Raptor Lake Refresh</td>
+                        <td>20 / 28</td>
+                        <td>3.4 / 5.6</td>
+                        <td>125W / 253W</td>
+                    </tr>
+                    <tr>
+                        <td>Core i9-13900K ($589)</td>
+                        <td><a href="#" class="text-info">$428</a></td>
+                        <td>75.40%</td>
+                        <td>Raptor Lake</td>
+                        <td>24 / 32 (8+16)</td>
+                        <td>3.0 / 5.8</td>
+                        <td>125W / 253W</td>
+                    </tr>
+                    <tr>
+                        <td>Core i7-13700K ($275)</td>
+                        <td><a href="#" class="text-info">$345</a></td>
+                        <td>74.94%</td>
+                        <td>Raptor Lake</td>
+                        <td>16 / 24 (8+8)</td>
+                        <td>3.4 / 5.4</td>
+                        <td>125W / 253W</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-4 mt-5 border-top border-secondary">
+        <div class="container">
+            <h5 class="fw-bold mb-1">SpecTierList 🚀</h5>
+            <p class="mb-0">Crafted with passion by <span class="text-info fw-bold">[Puttipong Yenphasuk]</span> &copy;
+                2025
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
